@@ -30,3 +30,11 @@ print("soma de tempo de todos os trechos: ", totalSegundos)
 
 print("soma de tempo de todos os trechos: ", totalTempoTodosTrechosMinutos, "minutos")
 print("soma de tempo de todos os trechos:", totalTempoTodosTrechosSegundos, "segundos")
+
+horaInicialSegundos = (6 * 60) * 60
+minutoInicialSegundos = 52 * 60
+horarioInicialSegundos = horaInicialSegundos * minutoInicialSegundos
+
+tempoTrechoMinutosSegundos = totalMinutos * 60
+
+horaChegada = (horaInicialSegundos + tempoTrechoMinutosSegundos) / 60
