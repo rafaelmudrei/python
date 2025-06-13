@@ -1,4 +1,4 @@
-# cat_twice faz a concatenaçao entre um e dois (parte1 + parte2)
+ # cat_twice faz a concatenaçao entre um e dois (parte1 + parte2)
 def concatena_texto(texto1, texto2):
     texto_inteiro = texto1 + texto2
     imprime_2_vezes(texto_inteiro)
